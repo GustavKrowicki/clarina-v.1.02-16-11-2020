@@ -172,6 +172,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     background-color: pink;
+    flex-direction: column;
 }
 
 
@@ -180,6 +181,7 @@ nav {
     height: 250px;
     justify-content: center;
     margin-bottom: 15px;
+    margin: 0 auto;
 }
 
 .sortiment_header {
@@ -275,6 +277,10 @@ nav {
 
     .mobile_header {
         display: none;
+    }
+
+    .sortiment_section{
+        flex-direction: row;
     }
 
     .some_icon {
